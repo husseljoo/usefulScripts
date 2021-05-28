@@ -61,13 +61,12 @@ if __name__=='__main__':
         print()
         print()
         send_email(pdfname)
-        print(SMTP_USERNAME)
         print()
         print()
         print()
         print("Sent "+helper(pdfname))
     else:
-        print("Provide more exactly one argument")
+        print("Provide exactly one argument")
 
 
 
